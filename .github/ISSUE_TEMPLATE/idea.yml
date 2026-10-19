@@ -1,0 +1,21 @@
+name: 功能建议 / Suggest an idea
+description: 分享能让家酿更好用的想法 / Help improve HomadeBar
+title: "[建议] "
+labels: [enhancement, 待整理]
+assignees: [fuyixuannnn]
+body:
+  - type: markdown
+    attributes:
+      value: "可以使用你熟悉的语言；内容公开可见。 / Use your preferred language. Posts are public."
+  - type: textarea
+    id: need
+    attributes:
+      label: 你想完成什么？ / What are you trying to do?
+      description: 描述使用场景，以及现在不方便的地方。 / Describe the situation and what is difficult today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你的想法 / Your idea
+      description: 有具体建议可以写在这里。 / Share a possible improvement, if you have one.
